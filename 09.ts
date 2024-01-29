@@ -5,13 +5,11 @@ interface Shape {
     dimension: number;
     backgroundColor: string;
     isSquare: boolean;
-    readonly name: string; // Свойство "name" только для чтения
-  
-    // Геттеры
+    readonly name: string; 
+   
     getSize(): number;
     getDimension(): number;
-  
-    // Сеттеры
+
     setColor(newColor: string): void;
   }
   
