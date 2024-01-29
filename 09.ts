@@ -51,7 +51,7 @@ interface Shape {
   }
   
   const shapesArray: Shape[] = [
-    new ShapeImpl("circle", "red", 10, 20, "pink", false),
+    new ShapeImpl("circle", "brown", 10, 20, "lightbrown", false),
     new ShapeImpl("square", "blue", 15, 5, "lightblue", true),
     new ShapeImpl("circle", "green", 8, 16, "lightgreen", false),
     new ShapeImpl("square", "yellow", 12, 6, "lightyellow", true)
